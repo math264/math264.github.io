@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="Michael A. Thomas" content="Series of projects @ NewMapsPlus">
+
+    <title>Michael Thomas: NewMapsPlus Portfolio</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome CSS from CDN -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <!-- Google web font -->
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
+
+    <!-- Custom styles for this template -->
+    <link href="css/styles.css" rel="stylesheet">
+
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Michael A. Thomas: Digital Mapping Journey</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Welcome Section -->
+    <header class="bg-secondary text-primary">
+      <img class=".img-fill" src="../">
+      <div class="container text-center">
+        <h1>Look What I Can Do!</h1>
+        <p class="lead text-white">A series of maps and projects created throughout my Digital Mapping degree<br>
+           using <a class="text-primary" href="https://getbootstrap.com/">Bootstrap</a> 
+           and several starter templates from <a class="text-primary" href="https://startbootstrap.com/">Start Bootstrap</a></p>
+      </div>
+    </header>
+
+    <!-- Projects Section -->
+    <section id="projects" class="bg-dark">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-sm-6 portfolio-item">
+            <div class="card h-40">
+              <a href="#"><img class="card-img-top" src="./images/covid.PNG" 
+                alt="U.S job loss by County during Covid-19 outbreak"></a>
+              <div class="card-body bg-secondary">
+                <h4 class="card-title">
+                  <a target="_blank" href="https://math264.github.io/US_Covid_Job_Loss/">Covid-19: U.S. County Job Loss</a>
+                </h4>
+                <p class="card-text">Covid-19 has affected everyone in the U.S. This interactive map enables exploration
+                  of covid's effect on each county by the total number of low-income jobs lost and its percentage of county employment.
+                <hr>
+                <b>Metadata</b><br>
+                GeoJSON and CSV low-income job loss data collected @ Urban Institute Data Catalog<br>
+                Utilized Javascript's JQuery Library and Leaflet to upload and manipulate geoJSON data
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- PROJECT 2 -->
+          <div class="col-lg-4 col-sm-6 portfolio-item">
+            <div class="card h-100">
+              <a href="#"><img class="card-img-top" src="images/trail.PNG" alt="Commemorative map for Craggy Cartographers"></a>
+              <div class="card-body bg-secondary">
+                <h4 class="card-title">
+                  <a target="_blank" href="./images/Raisz_Commemorative_hrez.jpg">Appalachian Trail Commemorative Map</a>
+                </h4>
+                <p class="card-text">A Craggy Cartographers' Appalachian Trail map commemorating Erwin Raisz.
+                  The map shows the Appalachian Trail within three contiguous states: Pennsylvania, Maryland, and Virginia.
+                  <hr>
+                  <b>Metadata</b> <br>
+                  Georeferenced tif to 10m graticule.shp overlaying a state.shp <br>
+                  Created in QGIS 3.12.2 <br>
+                  <a href="http://www.raiszmaps.com">Raisz_Landforms1957.tif</a>
+
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Project 3 -->
+          <div class="col-lg-4 col-sm-6 portfolio-item">
+            <div class="card h-100">
+              <a href="#"><img class="card-img-top" src="images/Breweries.png_thumbnail.png" alt="Density of breweries in the U.S."></a>
+              <div class="card-body bg-secondary">
+                <h4 class="card-title">
+                  <a target="_blank" href="./images/Breweries_Abroad_8000.png">Brewery Density, U.S.</a>
+                </h4>
+                <p class="card-text">Who doesn't love a good a beer? Well, you be the judge! This map shows the distribution
+                  and density of breweries across the nation. Is your home state full of breweries, and coincidentally, tipsy neighbors?  
+                  <hr>
+                  <b>Metadata</b><br>
+                  Brewery Geopackage downloaded from <a href="http://poi-factory.com">THe POI Factory</a>
+                  Used QGIS 3.12.2 to create hexbins 50km (long diagonal)<br>
+                  Brewery density in <a target="_blank" href="./images/Denver, CO breweries_1200.png">Denver, CO</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Project 4 -->
+          <div class="col-lg-4 col-sm-6 portfolio-item">
+            <div class="card h-100">
+              <a href="#"><img class="card-img-top" src="./images/cancer.png" alt="Cancer death rate in the U.S. (2009-13)"></a>
+              <div class="card-body bg-secondary">
+                <h4 class="card-title">
+                  <a target="_blank" href="https://math264.github.io/Cancer_Deathrate_09-13/">Cancer Death Rate, U.S. (2009-13)</a>
+                </h4>
+                <p class="card-text">Shows the cancer death rate in the United States. Collected data were organized by SQL querying
+                  and later joined (state/county names/FIPS). This map is also hosted by CARTO. Every county helps make up this chloropleth map, and clicking on each county
+                  initiates a popup with the county name, its death rate per 100k people, and its state.
+                  <hr>
+                  <b>Metadata</b><br>
+                  See at bottom of webpage
+
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Project 5 -->
+          <div class="col-lg-4 col-sm-6 portfolio-item">
+            <div class="card h-100">
+              <a href="#"><img class="card-img-top" src="./images/cities.png" alt="Pittsburgh, Lexington, and Greenville (Favorite Cities)"></a>
+              <div class="card-body bg-secondary">
+                <h4 class="card-title">
+                  <a target="_blank" href="https://math264.github.io/I_-3_These_CITIES/">My Favorite Cities</a>
+                </h4>
+                <p class="card-text">This map represents how Javascript can create markers and tooltips/
+                popups while using for loops in arrays of data. My three favorite cities are Pittsburgh, Lexington, and Greenville.
+              Pittsburgh is my birthplace and home of the Steelers. Lexington is currently my home, and Greenville is where my sister is.
+            <hr>
+          <b>Metadata</b><br>
+        See bottom of webpage
+        </p>
+              </div>
+            </div>
+          </div>
+          <!-- Project 6 -->
+          <div class="col-lg-4 col-sm-6 portfolio-item">
+            <div class="card h-100">
+              <a href="#"><img class="card-img-top" src="./images/prague.jpeg" alt="Dream Vacation: Prague"></a>
+              <div class="card-body bg-secondary">
+                <h4 class="card-title">
+                  <a target="_blank" href="https://math264.github.io/Dream_Vacation/">Vacation Wishlist: Prague</a>
+                </h4>
+                <p class="card-text">Just a simple, yet fun, map/webpage that displays some personal interest of mine.
+                  Everyone has a vacation wishlist/bucketlist. I have always wanted to visit Prague ever since I 
+                  realized just how much cars are associated with it. Find out more why I like Prague so much in the webpage.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+   <!-- About Section -->
+   <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 mx-auto text-dark">
+            <h2>About Me</h2>
+            <div class='my-5 clearfix bg-secondary'>
+              <div class="float-md-left mb-7 mr-md-4"><img class="rounded-circle img-fluid" src="./images/child.png" alt="The Child from Disney's The Mandalorian"></div>
+              <p class="lead"><br>
+                Hi I'm Michael, currently a LiDAR/Geospatial Technician at an AEG firm while
+                 trying to make my M.S. a reality! I graduated from The College of Wooster with a B.A. in Geology in 2019. 
+                 When im not staring at a computer screen for work and school, I enjoy playing xbox, playing trumpet in CKCB and other bands, 
+                 reading Star Wars and Western novels, listening to rock and power metal, and rooting for my Pittsburgh Steelers!.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <h3>The Good Stuff</h3>
+            <dl>
+                <dt>GIS</dt>
+                <dd>QGIS for data analysis, manipulation, and, format conversion</dd>
+                <dd>SQL for data querying</dd>
+                <dt>Web Mapping</dt>
+                <dd>JavaScript, CSS, and HTML</dd>
+                <dd>Leaflet for raster tilesets, basic thematic mapping, and telling stories with maps</dd>
+                <dt>LiDAR Processing</dt>
+                <dd>DEM & DTM analysis</dd>
+                <dd>Categorization of LiDAR point clouds</dd>
+                <dt>Digitizing</dt>
+                <dd>Hydrodigitizing and AFE </dd>
+              </dl>
+          </div>
+          <div class="col-md-6">
+              <h3>Get in touch!</h3>
+              <ul class="list-unstyled">
+                  <li class=""><i class="fa fa-instagram mr-2"></i><a href="https://www.instagram.com/eldersunnat96/">eldersunnat96</a></li>
+                  <li class=" mr-2"><i class="fa fa-github mr-2"></i><a href="https://github.com/math264">math264</a></li>
+                  <li class=""><i class="fa fa-linkedin mr-2"></i><a href="https://www.linkedin.com/in/michael-a-thomas-104149130/">linkedin</a></li>
+              </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark text-center">
+      <a href="https://newmapsplus.github.io">
+        <img src="https://newmapsplus.github.io/assets/graphics/logo-2018-nmp-75px-h-gray.png"
+          alt="University of Kentucky Geography">
+      </a>
+  
+      <a href="https://uky-gis.github.io">
+        <img src="https://newmapsplus.github.io/assets/graphics/logo-2018-geography-75px-h.png"
+          alt="University of Kentucky Geography">
+      </a>
+
+      <hr>
+  
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; Digital Mapping Journey 2020</p>
+      </div>
+      
+    </footer>
+
+    <!-- JQuery JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    
+    <!-- Bootstrap JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- JavaScript Plugin -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom JavaScript for this theme -->
+    <script src="js/scrolling-nav.js"></script>
+
+  </body>
+
+</html>
